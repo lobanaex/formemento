@@ -17327,7 +17327,7 @@ var FlateStream = (function() {
 		};
 	}
 
-})(typeof self !== "undefined" && self || typeof window !== "undefined" && window || undefined);
+})(typeof self !== "undefined" && self || typeof window !== "undefined" && window || this);
 
 return jsPDF;
 
